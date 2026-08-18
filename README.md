@@ -1,17 +1,17 @@
-# React + Vite + shadcn/ui Starter Template
+React + Vite + shadcn/ui Starter Template
 
 A modern React starter template built with Vite, TypeScript, Tailwind CSS, and shadcn/ui components.
 
-## 🚀 Features
+Features
 
-- ⚡️ **Vite** - Fast build tool and development server
-- ⚛️ **React 18** - Latest React with hooks support
-- 🎯 **TypeScript** - Type safety and better developer experience
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 🧩 **shadcn/ui** - Beautifully designed components built with Radix UI
-- 📦 **Path Mapping** - Clean imports with `@/` prefix
+- Vite - Fast build tool and development server
+- React 18 - Latest React with hooks support
+- TypeScript - Type safety and better developer experience
+- Tailwind CSS - Utility-first CSS framework
+- shadcn/ui - Beautifully designed components built with Radix UI
+- Path Mapping - Clean imports with `@/` prefix
 
-## 📦 Included shadcn/ui Components
+Included shadcn/ui Components
 
 - Button
 - Card
@@ -21,71 +21,66 @@ A modern React starter template built with Vite, TypeScript, Tailwind CSS, and s
 - Dialog
 - And more...
 
-## 🛠️ Getting Started
+Getting Started
 
-1. **Install dependencies**
+1. Install dependencies
 
-   ```bash
+   bash
    npm install
-   ```
+   
+2. Start development server
 
-2. **Start development server**
-
-   ```bash
+   bash
    npm run dev
-   ```
+   
 
-3. **Build for production**
+3. Build for production
 
-   ```bash
+   bash
    npm run build
-   ```
 
-4. **Preview production build**
-   ```bash
+4. Preview production build
+   bash
    npm run preview
-   ```
+   
 
-## 📁 Project Structure
+📁 Project Structure
 
-```
 src/
 ├── components/
-│   └── ui/              # shadcn/ui components
+│   └── ui/              shadcn/ui components
 ├── lib/
-│   └── utils.ts         # Utility functions
-├── App.tsx              # Main application component
-├── index.css            # Global styles with Tailwind
-└── main.tsx             # Application entry point
-```
+│   └── utils.ts         Utility functions
+├── App.tsx              Main application component
+├── index.css            Global styles with Tailwind
+└── main.tsx             Application entry point
 
-## 🎨 Customization
+Customization
 
-### Adding New shadcn/ui Components
+Adding New shadcn/ui Components
 
 This template is pre-configured with shadcn/ui. You can add more components by creating them in the `src/components/ui/` directory.
 
-### Tailwind Configuration
+Tailwind Configuration
 
 The Tailwind configuration is set up with shadcn/ui color variables. You can customize colors and other design tokens in:
 
 - `tailwind.config.js` - Tailwind configuration
 - `src/index.css` - CSS custom properties for themes
 
-### TypeScript Configuration
+TypeScript Configuration
 
 Path mapping is configured for clean imports:
 
-```typescript
+typescript
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-```
 
-## 🌗 Dark Mode
+🌗 Dark Mode
 
 The template includes dark mode support through Tailwind's `dark:` classes and CSS custom properties.
 
-## 📚 Learn More
+📚 Learn More
 
 - [Vite Documentation](https://vitejs.dev/)
 - [React Documentation](https://react.dev/)
@@ -93,28 +88,27 @@ The template includes dark mode support through Tailwind's `dark:` classes and C
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Radix UI](https://www.radix-ui.com/)
 
-## 🤝 Contributing
+🤝 Contributing
 
 Feel free to submit issues and enhancement requests!
 
-**⚡ Powered by [Dala](https://dala.gebeya.com)** - The AI-powered web development platform that helps you build full-stack applications faster.
+Powered by [Dala](https://dala.gebeya.com) - The AI-powered web development platform that helps you build full-stack applications faster.
 
 ---
 
-## 🤖 What is Dala?
+🤖 What is Dala?
 
-**[Gebeya Dala](https://dala.gebeya.com)** is an intelligent web development platform that accelerates your React development workflow. Build, preview, and deploy web applications, and instant development environments.
+[Gebeya Dala](https://dala.gebeya.com) is an intelligent web development platform that accelerates your React development workflow. Build, preview, and deploy web applications, and instant development environments.
 
-🔗 **Try Dala:** [dala.gebeya.com](https://dala.gebeya.com)
+🔗 Try Dala: [dala.gebeya.com](https://dala.gebeya.com)
 
-### Why Use Dala?
+Why Use Dala?
 
-- **AI-Powered Development** - Get intelligent code suggestions and automated component generation
-- **Instant Preview** - See your changes live in real-time sandbox environments
-- **Zero Setup** - No local environment configuration needed
-- **Collaborative** - Build and share projects with your team
-- **Deployment Ready** - One-click deployment to production
+- AI-Powered Development - Get intelligent code suggestions and automated component generation
+- Instant Preview - See your changes live in real-time sandbox environments
+- Zero Setup - No local environment configuration needed
+- Collaborative - Build and share projects with your team
+- Deployment Ready - One-click deployment to production
 
----
 
 Built with ❤️ by the Dala team to help developers build faster and smarter.
